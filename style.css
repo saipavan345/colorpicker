@@ -1,0 +1,140 @@
+
+#info {
+   
+    color: red;
+    animation-name: example;
+    animation-duration: 3s;
+  }
+  
+  @keyframes example {
+    from {color: green}
+    to {color:orange;}
+  }
+#red{
+    transition: transform .2s;
+  
+  }
+  
+  #red:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.5); 
+  }
+  #blue{
+    transition: transform .2s;
+  
+  }
+  
+  #blue:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.5); 
+  }
+  #orange{
+    transition: transform .2s;
+  
+  }
+  
+  #orange:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.5); 
+  }
+ #pink
+ {
+    transition: transform .2s;
+ }
+ #pink:hover{
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+ }
+#green
+{
+    transition: transform .2s;
+}
+#green:hover{
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+#sky
+{
+    transition: transform .2s;
+}
+#sky:hover{
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+#black
+{
+    transition: transform .2s;
+}
+#black:hover{
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+#brown
+{
+    transition: transform .2s;
+}
+#brown:hover{
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+#sky
+{
+    transition: transform .2s;
+}
+#sky:hover{
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+ body{
+    background-image: url('environment.jpg');
+    background-repeat: no-repeat;
+    text-align: center;
+    background-attachment: fixed;
+    background-size: cover;  
+} 
+#box1
+{
+  border:2px solid black;
+  background-color:blanchedalmond;
+  border-radius: 40px;
+  height:100px;
+  padding:50px;
+  width:350px;
+  text-align: center;
+  padding: 20px 20px;
+  margin-left: 250px;
+
+}
+#box2
+{
+  border:2px solid black;
+  background-color:blanchedalmond;
+  border-radius: 40px;
+  height:100px;
+  padding:50px;
+  width:350px;
+  padding: 25px 20px;
+  text-align: center;
+  margin-left: 250px;
+}
+#box3
+{
+  border:2px solid black;
+  background-color:blanchedalmond;
+  border-radius: 40px;
+  height:100px;
+  padding:50px;
+  width:350px;
+  padding: 25px 20px;
+  text-align: center;
+  margin-left: 250px;
+}

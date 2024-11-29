@@ -1,0 +1,50 @@
+<html>
+<title>HTML</title>
+<head>
+    <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <h1 style="text-align: center;"><b style="font-style: italic" >Color</b> <span id="info" style="font-family: Bodoni MT Black;">Picker</span></h1>
+    
+   <div id="color">
+    <h2 contenteditable="true"><span>Choose the color...</span></h2>
+ </div>
+ <h2><span style="text-align: center;font-family: Segoe Script;font-size:19px";>Font Color</span></h2>
+<div id=box1>
+   
+    <button style="background-color: red; font-size: 16px;border-radius: 90px; padding: 10px 21px;font-style:bold; color:white" id = "color1" onclick="color1()"><div id="red" style="font-family: MV Boli;">RED</div></button>
+    <button style="background-color:blue; font-size: 16px; border-radius: 90px; padding: 10px 20px;font-style:bold;color:white" id="color2" onclick="color2()"><div id="blue" style="font-family: MV Boli;">BLUE</div></button>
+    <button style="background-color: orange; font-size: 16px; border-radius: 90px; padding: 10px 6px;font-style:bold;color:white" id="color3" onclick="color3()"><div id="orange" style="font-family: MV Boli;">ORANGE</div></button>
+    <button style="background-color: pink; font-size: 16px; border-radius: 90px; padding: 10px 20px;font-style:bold;color:white" id="color4" onclick="color4()"><div id="pink" style="font-family: MV Boli;">PINK</div></button><br>
+    <button style="background-color: green; font-size: 16px; border-radius: 90px; padding: 10px 14px;font-style:bold;color:white"id="color5" onclick="color5()"><div id="green" style="font-family: MV Boli;">GREEN</div></button>
+    <button style="background-color: rgb(227, 8, 125); font-size: 16px; border-radius: 90px; padding: 10px 20px;font-style:bold; color:white" id = "color1" onclick="color6()"><div id="pink" style="font-family: MV Boli;">PINK</div></button>
+    <button style="background-color:rgb(14, 207, 250); font-size: 16px; border-radius: 90px; padding: 10px 20px;font-style:bold;color:white" id="color2" onclick="color7()"><div id="sky" style="font-family: MV Boli;">SKY</div></button>
+    <button style="background-color: rgb(5, 4, 3); font-size: 16px; border-radius: 90px; padding: 10px 15px;font-style:bold;color:white" id="color3" onclick="color8()"><div id="black" style="font-family: MV Boli;">BLACK</div></button>
+  </div>  
+  <br>
+        <h2><span style="text-align: center;font-family: Segoe Script;font-size:19px">Background Color</span></h2>
+        <div id="box2">
+    <button style="background-color:orange; font-size: 14px; border-radius: 90px; padding: 10px 20px;font-style:bold; color:white" id = "back1" onclick="back1()"><div id="orange" style="font-family: MV Boli;">Orange</div></button>
+    <button style="background-color:blue; font-size: 16px; border-radius: 90px; padding: 10px 20px;font-style:bold;color:white" id="back2" onclick="back2()"><div id="blue" style="font-family: MV Boli;">Blue</div></button>
+    <button style="background-color:pink; font-size: 16px; border-radius: 90px; padding: 10px 20px;font-style:bold;color:white" id="back3" onclick="back3()"><div id="pink" style="font-family: MV Boli;">Pink</div></button>
+    <button style="background-color: green; font-size: 16px; border-radius: 90px; padding: 10px 20px;font-style:bold;color:white" id="back4" onclick="back4()"><div id="green" style="font-family: MV Boli;">Green</div></button><br>
+    <button style="background-color:brown; font-size: 16px; border-radius: 90px; padding: 10px 20px;font-style:bold;color:white"id="back5" onclick="back5()"><div id="brown" style="font-family: MV Boli;">brown</div></button>
+    <button style="background-color: rgb(227, 8, 125); font-size: 16px; border-radius: 90px; padding: 10px 20px;font-style:bold; color:white" id = "back6" onclick="back6()"><div id="pink" style="font-family: MV Boli;">PINK</div></button>
+    <button style="background-color:rgb(14, 207, 250); font-size: 16px; border-radius: 90px; padding: 10px 20px;font-style:bold;color:white" id="back7" onclick="back7()"><div id="sky" style="font-family: MV Boli;">SKY</div></button>
+    <button style="background-color: rgb(5, 4, 3); font-size: 16px; border-radius: 90px; padding: 10px 15px;font-style:bold;color:white" id="back8" onclick="back8()"><div id="black" style="font-family: MV Boli;">BLACK</div></button>
+  </div>
+        <h2><span style="text-align: center;font-family: Segoe Script;">Choose Heading Style</span></h2>
+<div id="box3">
+    <button style="background-image: linear-gradient(orange,skyblue);font-size: 15px; border-radius: 90px; padding: 18px 12px;font-style:bold; color:white" id = "head1" onclick="head1()"><div id="orange" style="font-family: 'Brush Script MT';">Click Me!</div></button>
+    <button style="background-image: linear-gradient(rgb(52, 10, 149),skyblue); font-size: 16px; border-radius: 90px; padding: 18px 14px;font-style:bold;color:white" id="head2" onclick="head2()"><div id="blue" style="font-family: 'Garamond';">Click Me!</div></button>
+    <button style="background-image: linear-gradient(rgb(240, 7, 193),skyblue); font-size: 11px; border-radius: 90px; padding: 18px 12px;font-style:bold;color:white" id="head3" onclick="head3()"><div id="pink" style="font-family: Copperplate, Papyrus, fantasy;">Click Me!</div></button>
+    <button style="background-image: linear-gradient(rgb(60, 10, 185),skyblue); font-size: 10px; border-radius: 90px; padding: 18px 12px;font-style:bold;color:white" id="head4" onclick="head4()"><div id="green" style="font-family:Algerian ;">Click Me!</div></button><br>
+    <button style="background-image: linear-gradient(rgb(7, 1, 36),skyblue);font-size: 13px; border-radius: 90px; padding: 18px 12px;font-style:bold;color:white"id="head5" onclick="head5()"><div id="brown" style="font-family: French Script MT;">Click Me!</div></button>
+    <button style="background-image: linear-gradient(rgb(85, 3, 3),skyblue); font-size: 13px; border-radius: 90px; padding: 17px 12px;font-style:bold;color:white"id="head6" onclick="head6()"><div id="brown" style="font-family: Vivaldi;">Click Me!</div></button>
+    <button style="background-image: linear-gradient(orange,skyblue); font-size: 13px; border-radius: 90px; padding: 17px 10px;font-style:bold;color:white" id="head7" onclick="head7()"><div id="green" style="font-family:Kristen ITC ;">Click Me!</div></button>
+    <button style="background-image: linear-gradient(rgb(1, 40, 2),skyblue);font-size: 13px; border-radius: 90px; padding: 18px 12px;font-style:bold;color:white"id="head8" onclick="head8()"><div id="brown" style="font-family: Blackadder ITC;">Click Me!</div></button>
+    </div>
+<script src="script.js">
+    </script>
+    </body>
+</html>
